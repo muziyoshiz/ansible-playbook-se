@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./extra-vars-checker "$@"
+
+if [ $? != 0 ]; then
+  echo "Failed"
+  exit 1
+fi
+
+echo "Succeeded" "$@"
