@@ -55,5 +55,3 @@ for vars in extra_vars.split(' '):
 
 print('INFO: All extra-vars are allowed.')
 exit(0)
-
-
