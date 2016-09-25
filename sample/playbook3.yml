@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+  vars:
+    unrestricted6: default_value6
+  tasks:
+    - name: Print unrestricted variable 6
+      debug: msg={{ unrestricted6 }}

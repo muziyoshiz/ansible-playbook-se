@@ -1,0 +1,7 @@
+---
+playbook1.yml:
+  - allowed1
+  - allowed2
+
+playbook2.yml:
+  - allowed4

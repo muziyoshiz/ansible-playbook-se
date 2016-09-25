@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+  vars:
+    allowed4: default_value4
+    denied5: default_value5
+  tasks:
+    - name: Print allowed variable 4
+      debug: msg={{ allowed4 }}
+    - name: Print denined variable 5
+      debug: msg={{ denied5 }}

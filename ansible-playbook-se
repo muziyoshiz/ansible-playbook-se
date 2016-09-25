@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./extra-vars-checker "$@"
+$(dirname $0)/extra-vars-checker "$@"
 
 if [ $? != 0 ]; then
   echo "ERROR: extra-vars-checker Failed."
