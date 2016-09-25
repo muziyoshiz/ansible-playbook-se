@@ -3,7 +3,7 @@
 ./extra-vars-checker "$@"
 
 if [ $? != 0 ]; then
-  echo "extra-vars-checker Failed"
+  echo "ERROR: extra-vars-checker Failed."
   exit 1
 fi
 

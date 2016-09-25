@@ -1,0 +1,8 @@
+---
+playbook_name1.yml:
+  - allowed_variable_name1
+  - allowed_variable_name2
+
+playbook_name2.yml:
+  - allowed_variable_name3
+  - allowed_variable_name4
