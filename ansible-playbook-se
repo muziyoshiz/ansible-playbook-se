@@ -3,8 +3,8 @@
 ./extra-vars-checker "$@"
 
 if [ $? != 0 ]; then
-  echo "Failed"
+  echo "extra-vars-checker Failed"
   exit 1
 fi
 
-echo "Succeeded" "$@"
+ansible-playbook "$@"

@@ -1,0 +1,8 @@
+---
+playbook1.yml:
+  - version
+  - disable_batch1
+
+playbook2.yml:
+  - version
+  - disable_batch2
