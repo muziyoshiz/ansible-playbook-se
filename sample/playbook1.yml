@@ -6,9 +6,9 @@
     allowed2: default_value2
     denied3: default_value3
   tasks:
-    - name: Print allowed variable 1
+    - name: Print variable 'allowed1'
       debug: msg={{ allowed1 }}
-    - name: Print allowed variable 2
+    - name: Print variable 'allowed2'
       debug: msg={{ allowed2 }}
-    - name: Print denined variable 3
+    - name: Print variable 'denied3'
       debug: msg={{ denied3 }}

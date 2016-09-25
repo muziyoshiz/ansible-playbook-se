@@ -4,5 +4,5 @@
   vars:
     unrestricted6: default_value6
   tasks:
-    - name: Print unrestricted variable 6
+    - name: Print variable 'unrestricted6'
       debug: msg={{ unrestricted6 }}

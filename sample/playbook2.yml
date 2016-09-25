@@ -5,7 +5,7 @@
     allowed4: default_value4
     denied5: default_value5
   tasks:
-    - name: Print allowed variable 4
+    - name: Print variable 'allowed4'
       debug: msg={{ allowed4 }}
-    - name: Print denined variable 5
+    - name: Print variable 'denied5'
       debug: msg={{ denied5 }}
